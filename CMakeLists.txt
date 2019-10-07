@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
-project(DES C)
+project(des C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(DES main.c utility.c des.c constants.c)
+add_executable(des main.c utility.c des.c constants.c)

@@ -4,6 +4,10 @@
 #include "constants.h"
 
 int main(int argc, char *argv[]) {
+    if (argc < 5) {
+        fprintf(stderr, "Usage: des [encrypt|decrypt] input_filename output_filename key_filename\n");
+        return 1;
+    }
     enum MODE mode = ENCRYPT;
     switch (argv[1][0]) {
         case 'd':
