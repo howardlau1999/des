@@ -74,12 +74,12 @@ preinstall:
 CMakeFiles/DES.dir/all:
 	$(MAKE) -f CMakeFiles/DES.dir/build.make CMakeFiles/DES.dir/depend
 	$(MAKE) -f CMakeFiles/DES.dir/build.make CMakeFiles/DES.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Liuhaohua/Desktop/DES/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target DES"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/Liuhaohua/Desktop/DES/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target DES"
 .PHONY : CMakeFiles/DES.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/DES.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Liuhaohua/Desktop/DES/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Liuhaohua/Desktop/DES/cmake-build-debug/CMakeFiles 5
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/DES.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/Liuhaohua/Desktop/DES/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/DES.dir/rule

@@ -123,6 +123,33 @@ DES/fast:
 	$(MAKE) -f CMakeFiles/DES.dir/build.make CMakeFiles/DES.dir/build
 .PHONY : DES/fast
 
+constants.o: constants.c.o
+
+.PHONY : constants.o
+
+# target to build an object file
+constants.c.o:
+	$(MAKE) -f CMakeFiles/DES.dir/build.make CMakeFiles/DES.dir/constants.c.o
+.PHONY : constants.c.o
+
+constants.i: constants.c.i
+
+.PHONY : constants.i
+
+# target to preprocess a source file
+constants.c.i:
+	$(MAKE) -f CMakeFiles/DES.dir/build.make CMakeFiles/DES.dir/constants.c.i
+.PHONY : constants.c.i
+
+constants.s: constants.c.s
+
+.PHONY : constants.s
+
+# target to generate assembly for a file
+constants.c.s:
+	$(MAKE) -f CMakeFiles/DES.dir/build.make CMakeFiles/DES.dir/constants.c.s
+.PHONY : constants.c.s
+
 des.o: des.c.o
 
 .PHONY : des.o
@@ -213,6 +240,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... DES"
 	@echo "... edit_cache"
+	@echo "... constants.o"
+	@echo "... constants.i"
+	@echo "... constants.s"
 	@echo "... des.o"
 	@echo "... des.i"
 	@echo "... des.s"

@@ -74,7 +74,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/cygdrive/c/Users/Liuhaohua/Desktop/DES/constants.c">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Liuhaohua/Desktop/DES/constants.h">
+			<Option target="DES"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/Liuhaohua/Desktop/DES/des.c">
+			<Option target="DES"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/Liuhaohua/Desktop/DES/des.h">
 			<Option target="DES"/>
 		</Unit>
 		<Unit filename="/cygdrive/c/Users/Liuhaohua/Desktop/DES/main.c">
