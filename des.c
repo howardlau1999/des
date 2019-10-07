@@ -2,13 +2,10 @@
 // Created by Liuhaohua on 2019/10/2.
 //
 
-#include "des.h"
 #include "utility.h"
 #include "constants.h"
-#include <stdio.h>
 
 byte subkeys[17][6] = {0};
-byte CD[17][KEY_BYTE_LEN - 1] = {0};
 
 void shift_left(const byte *src, byte *dst, const size_t src_nr_offset, const size_t dst_nr_offset, const size_t shift,
                 const size_t n_bits) {
@@ -18,6 +15,7 @@ void shift_left(const byte *src, byte *dst, const size_t src_nr_offset, const si
 
 // Create 16 subkeys, each of which is 48-bits long
 void create_subkeys(byte key[KEY_BYTE_LEN]) {
+    byte CD[17][KEY_BYTE_LEN - 1] = {0};
     permute_bits(key, CD[0], 0, 0, PC_1, sizeof(PC_1) / sizeof(int));
 
     const int half_permuted_len = (KEY_BYTE_LEN - 1) * 4;
